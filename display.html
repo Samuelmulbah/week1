@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>css displays</title>
+      <style>
+       input{
+          display: flex;
+       }
+        a{
+          display: block;
+          text-decoration: none;
+        }
+        li{
+          display: inline;
+        }
+        .non-block-elements{
+          display: flex;
+          background-color: red ;
+          width: 50% ;
+          height: 50%;
+          border: 2px dashed  blue;
+        }
+        
+     </style>
+   </head>
+
+ <body>
+  <div class="container">
+   <div class="non-block-elements">
+    <form action="/submit" method="post">
+      <label >Names:</label>
+      <input type="text" placeholder="place Enter Names"required>
+
+      <label >Email</label>
+      <input type="email" required>
+
+      <a href="#" target="blank">Link 1</a>
+      <a href="#" target="blank">Link 2</a>
+      </form>
+    </div>
+    <div class="block-elements"></div>
+        <h2>unordered list</h2>
+          <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+          </ul>
+   </div>
+ </body>
+</html>

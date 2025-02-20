@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html forms</title>
+  </head>
+    <body>
+      <h2>Html Forms</h2>
+      <form action="/submit" method="post">
+       <!--<label>Names!</label>-->
+       <input type="text" name="name" placeholder="place Enter Names"required><br><br>
+
+       <label >Email</label>
+       <input type="email" required><br><br>
+
+       <label>Age:</label>
+       <input type="number" min="1" max="30" required><br><br>
+
+        <label>Birthday</label>
+        <input type="date"> <br><br>
+
+        <label>Gender</label>
+        <input type="radio" value="male">
+        <label>male</label>
+        <input type="radio" value="female">
+        <label>female</label><br><br>
+
+        <label>Talente:</label>
+        <input type="chechbox" value="sing"> 
+        <label>sing</label><br><br>
+
+        <label>Nationailty</label>
+        <select name="Nationailty">
+        <option>Liberia</option>
+        <option>Rwanda</option>
+        <option>Ghana</option>
+        <option>Congo</option>
+        </select><br><br>
+
+       <label>password:</label>
+       <input type="password"><br><br>
+
+       <label>comment</label>
+       <textarea rows="4"cols="30"placeholder="please leave a comment"></textarea><br><br>
+
+       <input type="submit" value="submit">
+      </form>
+    </body>
+</html>
